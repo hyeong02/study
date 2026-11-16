@@ -7,7 +7,7 @@ public class Rectangle {
     }
 
     public boolean isSquare(){
-        if ((x==y)&&(width==height))return true;
+        if (width==height)return true;
         else return false;
     }
     public boolean contains(Rectangle b){
