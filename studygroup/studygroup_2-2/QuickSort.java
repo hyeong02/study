@@ -33,5 +33,6 @@ public class QuickSort{
         }
         qsrt(0, a.length-1, a);
         System.out.println(Arrays.toString(a));
+        sc.close();
     }
 }

@@ -16,5 +16,6 @@ public class EvenSort {
         Collections.sort(a);
         System.out.println(cnt);
         System.out.println(a.toString());
+        sc.close();
     }
 }
