@@ -5,6 +5,7 @@ public class B25206{
         Scanner sc=new Scanner(System.in);
         for(int i=0; i<20; i++){
             String s=sc.next();
+            s=s+s;
             double a=sc.nextDouble();
             String grade=sc.next();
             switch(grade){
@@ -49,6 +50,7 @@ public class B25206{
                 
             }
         }
+        sc.close();
         System.out.println(result/score);
     }
 }
