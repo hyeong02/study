@@ -35,6 +35,7 @@ public class B14440_algo {
             }
             System.out.printf("%02d", (I[0][0] * F1 + I[0][1] * F0) %100);
         }
+        sc.close();
     }
 
     public static void MutMat(int[][] a, int[][] b, int[][] c) {
