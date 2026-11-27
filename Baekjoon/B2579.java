@@ -21,6 +21,7 @@ public class B2579 {
             max = Math.max(max, up(n - 1, i));
         }
         System.out.println(max);
+        sc.close();
     }
 
     public static int up(int n, int i) {
